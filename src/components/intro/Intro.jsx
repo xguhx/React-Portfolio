@@ -33,7 +33,7 @@ export const Intro = () => {
 
       <div className="right">
         <div className="imgContainer">
-          <img src="assets/logopng.PNG" alt="" />
+          <img src="assets/logopng.PNG" alt="logo" />
         </div>
       </div>
     </div>
