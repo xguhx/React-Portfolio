@@ -1,6 +1,6 @@
 import { Topbar } from "./components/topbar/Topbar";
 import { Intro } from "./components/intro/Intro";
-import { Portfolio } from "./components/portfiolio/portfolio";
+import { Portfolio } from "./components/portfiolio/Portfolio";
 import { Works } from "./components/works/Works";
 import { AboutMe } from "./components/aboutMe/AboutMe";
 import { Contact } from "./components/contact/Contact";
@@ -20,7 +20,6 @@ function App() {
         <Intro />
         <Works />
         <Portfolio />
-
         <AboutMe />
         <Contact />
       </div>
