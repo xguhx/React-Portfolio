@@ -20,13 +20,13 @@ export const Intro = () => {
       <div className="left">
         <div className="wrapper">
           <h2>Hello! I'm Gustavo Tavares</h2>
-          <h1></h1>
+
           <h3>
             I am a <span ref={text}></span>
           </h3>
         </div>
 
-        <a href="#portfolio">
+        <a href="#works">
           <ArrowDownward className="down" />
         </a>
       </div>
