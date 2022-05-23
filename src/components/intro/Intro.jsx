@@ -19,22 +19,16 @@ export const Intro = () => {
     <div className="intro" id="intro">
       <div className="left">
         <div className="wrapper">
-          <h2>Hello! I'm</h2>
-          <h1>Gustavo Tavares</h1>
+          <h2>Hello! I'm Gustavo Tavares</h2>
+          <h1></h1>
           <h3>
-            Junior <span ref={text}></span>
+            I am a <span ref={text}></span>
           </h3>
         </div>
 
         <a href="#portfolio">
           <ArrowDownward className="down" />
         </a>
-      </div>
-
-      <div className="right">
-        <div className="imgContainer">
-          <img src="assets/logopng.PNG" alt="logo" />
-        </div>
       </div>
     </div>
   );
