@@ -2,7 +2,7 @@ import { Topbar } from "./components/topbar/Topbar";
 import { Intro } from "./components/intro/Intro";
 import { Portfolio } from "./components/portfiolio/portfolio";
 import { Works } from "./components/works/Works";
-import { Testimonials } from "./components/testimonials/Testimonials";
+import { AboutMe } from "./components/aboutMe/AboutMe";
 import { Contact } from "./components/contact/Contact";
 import { Menu } from "./components/menu/Menu";
 import { useState } from "react";
@@ -21,7 +21,7 @@ function App() {
         <Works />
         <Portfolio />
 
-        <Testimonials />
+        <AboutMe />
         <Contact />
       </div>
     </div>
