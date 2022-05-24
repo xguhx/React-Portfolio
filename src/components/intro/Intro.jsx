@@ -11,7 +11,7 @@ export const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Developer", "Programmer"],
+      strings: ["Front-end", "Back-end", "Mobile"],
     });
   }, []);
 
@@ -22,7 +22,7 @@ export const Intro = () => {
           <h2>Hello! I'm Gustavo Tavares</h2>
 
           <h3>
-            I am a <span ref={text}></span>
+            I am a <span ref={text}></span>Developer
           </h3>
         </div>
 

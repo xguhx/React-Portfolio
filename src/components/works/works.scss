@@ -13,6 +13,10 @@
     cursor: pointer;
     color: white;
 
+    @include mobile2 {
+      display: none;
+    }
+
     &.left {
       left: 100px;
     }
@@ -28,11 +32,21 @@
     left: 0;
     transition: all 1s ease-out;
 
+    @include mobile2 {
+      height: 90%;
+      flex-direction: column;
+      justify-content: center;
+    }
+
     .container {
       width: 100vw;
       display: flex;
       align-items: center;
       justify-content: center;
+
+      @include mobile2 {
+        overflow: hidden;
+      }
 
       .item {
         width: 1000px;
@@ -42,6 +56,25 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile2 {
+          width: 90%;
+          height: 110px;
+          margin: 20px 0;
+          justify-content: center;
+          overflow: hidden;
+          transition: all 0.5s ease;
+
+          &:hover {
+            background-color: $mainColor;
+            color: white;
+
+            img {
+              opacity: 0.2;
+              z-index: 0;
+            }
+          }
+        }
 
         .left {
           flex: 4;
@@ -58,30 +91,50 @@
             justify-content: space-between;
 
             .imgContainer {
-              width: 40px;
-              height: 40px;
+              width: 60px;
+              height: 60px;
               border-radius: 50px;
               background-color: rgb(109, 202, 244);
               display: flex;
               align-items: center;
               justify-content: center;
 
+              @include mobile2 {
+                display: none;
+              }
+
               .icon {
-                width: 25px;
+                font-size: 40px;
+                @include mobile2 {
+                  display: none;
+                }
               }
             }
 
             h2 {
-              font-size: 20px;
+              font-size: 30px;
+              @include mobile2 {
+                font-size: 20px;
+              }
+              @include mobile {
+                font-size: 15px;
+              }
             }
             p {
-              font-size: 13px;
+              font-size: 18px;
+              @include mobile2 {
+                display: none;
+              }
             }
             span {
-              font-size: 12px;
+              font-size: 15px;
               font-weight: 600;
               text-decoration: underline;
               cursor: pointer;
+
+              @include mobile2 {
+                display: none;
+              }
             }
           }
         }
