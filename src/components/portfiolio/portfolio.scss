@@ -34,10 +34,6 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    @include mobile {
-      width: 100%;
-    }
-
     @include mobile2 {
       width: 100%;
     }
@@ -57,13 +53,13 @@
       cursor: pointer;
 
       @include mobile2 {
-        width: 300px;
-        height: 320px;
+        width: 280px;
+        height: 180px;
       }
 
       @include mobile {
-        width: 150px;
-        height: 120px;
+        width: 130px;
+        height: 110px;
       }
 
       h3 {

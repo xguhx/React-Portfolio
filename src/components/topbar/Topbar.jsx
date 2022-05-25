@@ -1,5 +1,5 @@
 import "./topbar.scss";
-import { AlternateEmail, Person } from "@material-ui/icons";
+import { AlternateEmail, GitHub } from "@material-ui/icons";
 
 export const Topbar = ({ menuOpen, setMenuOpen }) => {
   return (
@@ -10,13 +10,16 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
             gg.
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+416 9908744</span>
+            <GitHub className="icon" />
+
+            <span>
+              <a href="https://github.com/xguhx"> xguhx</a>
+            </span>
           </div>
 
           <div className="itemContainer">
             <AlternateEmail className="icon" />
-            <span>gust.tavaresx@gmail.com</span>
+            <span> gust.tavaresx@gmail.com</span>
           </div>
         </div>
         <div className="right">
