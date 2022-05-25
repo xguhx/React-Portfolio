@@ -10,11 +10,12 @@
 
   .left {
     overflow: hidden;
-    margin-left: 16%;
-    margin-top: 10%;
+    margin-left: 30%;
+    margin-top: 5%;
 
     @include mobile {
       margin-top: 30%;
+      margin-left: 20%;
       word-wrap: break-word;
     }
 
