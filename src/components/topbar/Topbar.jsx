@@ -7,7 +7,7 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
       <div className="wrapper">
         <div className="left">
           <a href="#intro" className="logo">
-            gg.
+            g.
           </a>
           <div className="itemContainer">
             <GitHub className="icon" />
@@ -19,7 +19,12 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
 
           <div className="itemContainer">
             <AlternateEmail className="icon" />
-            <span> gust.tavaresx@gmail.com</span>
+            <span>
+              {" "}
+              <a href="mailto:gust.tavaresx@gmail.com">
+                gust.tavaresx@gmail.com
+              </a>
+            </span>
           </div>
         </div>
         <div className="right">
