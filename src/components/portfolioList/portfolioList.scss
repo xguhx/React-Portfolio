@@ -6,12 +6,23 @@
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
+  margin-bottom: 10px;
 
+  @include mobile4k {
+    font-size: 25px;
+  }
+  @include mobile2k {
+    font-size: 25px;
+  }
   @include mobile2 {
     flex-wrap: wrap;
     justify-content: center;
     margin-right: 40px;
     font-size: 20px;
+  }
+
+  @include default {
+    font-size: 25px;
   }
 
   @include mobile {

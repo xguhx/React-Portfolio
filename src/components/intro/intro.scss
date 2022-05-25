@@ -10,13 +10,25 @@
 
   .left {
     overflow: hidden;
-    margin-left: 30%;
-    margin-top: 5%;
+    word-wrap: break-word;
 
+    @include mobile4k {
+      margin-top: 5%;
+      margin-left: 30%;
+    }
+
+    @include mobile2k {
+      margin-top: 10%;
+      margin-left: 30%;
+    }
+
+    @include default {
+      margin-left: 30%;
+      margin-top: 8%;
+    }
     @include mobile {
       margin-top: 30%;
       margin-left: 20%;
-      word-wrap: break-word;
     }
 
     .wrapper {
@@ -26,6 +38,17 @@
       h2 {
         font-size: 100px;
 
+        @include mobile4k {
+          font-size: 150px;
+        }
+
+        @include mobile2k {
+          font-size: 100px;
+        }
+
+        @include default {
+          font-size: 100px;
+        }
         @include mobile {
           font-size: 50px;
         }
@@ -33,7 +56,15 @@
 
       h3 {
         font-size: 100px;
-
+        @include mobile4k {
+          font-size: 150px;
+        }
+        @include mobile2k {
+          font-size: 100px;
+        }
+        @include default {
+          font-size: 100px;
+        }
         @include mobile {
           font-size: 50px;
         }

@@ -32,6 +32,14 @@
     left: 0;
     transition: all 1s ease-out;
 
+    @include mobile4k {
+      height: 60%;
+    }
+
+    @include default {
+      height: 500px;
+    }
+
     @include mobile2 {
       height: 90%;
       flex-direction: column;
@@ -56,6 +64,17 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @include mobile4k {
+          width: 1500px;
+        }
+
+        @include mobile2k {
+          width: 1300px;
+        }
+        @include default {
+          width: 1000px;
+        }
 
         @include mobile2 {
           width: 90%;
@@ -99,12 +118,39 @@
               align-items: center;
               justify-content: center;
 
+              @include mobile4k {
+                width: 25%;
+                height: 25%;
+              }
+
+              @include mobile2k {
+                width: 20%;
+                height: 20%;
+              }
+
               @include mobile2 {
                 display: none;
               }
 
+              @include default {
+                width: 60px;
+                height: 60px;
+              }
+
               .icon {
-                font-size: 40px;
+                font-size: 35px;
+
+                @include mobile4k {
+                  font-size: 80px;
+                }
+
+                @include mobile2k {
+                  font-size: 50px;
+                }
+                @include default {
+                  font-size: 35px;
+                }
+
                 @include mobile2 {
                   display: none;
                 }
@@ -113,6 +159,18 @@
 
             h2 {
               font-size: 30px;
+
+              @include mobile4k {
+                font-size: 50px;
+              }
+
+              @include mobile2k {
+                font-size: 40px;
+              }
+              @include default {
+                font-size: 30px;
+              }
+
               @include mobile2 {
                 font-size: 20px;
               }
@@ -122,6 +180,18 @@
             }
             p {
               font-size: 18px;
+
+              @include mobile4k {
+                font-size: 30px;
+              }
+              @include mobile2k {
+                font-size: 30px;
+              }
+
+              @include default {
+                font-size: 18px;
+              }
+
               @include mobile2 {
                 display: none;
               }
@@ -132,6 +202,16 @@
               text-decoration: underline;
               cursor: pointer;
 
+              @include mobile4k {
+                font-size: 35px;
+              }
+
+              @include mobile2k {
+                font-size: 30px;
+              }
+              @include default {
+                font-size: 25px;
+              }
               @include mobile2 {
                 display: none;
               }

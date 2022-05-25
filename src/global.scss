@@ -4,6 +4,12 @@ $width: 768px;
 
 $width2: 912px;
 
+$width2k: 2048px;
+
+$width4k: 3840px;
+
+$default: 1920px;
+
 @mixin mobile {
   @media (
     max-width: #{$width}) {
@@ -14,6 +20,27 @@ $width2: 912px;
 @mixin mobile2 {
   @media (
     max-width: #{$width2}) {
+    @content;
+  }
+}
+
+@mixin default {
+  @media (
+    max-width: #{$default}) {
+    @content;
+  }
+}
+
+@mixin mobile2k {
+  @media (
+    max-width: #{$width2k}) {
+    @content;
+  }
+}
+
+@mixin mobile4k {
+  @media (
+    max-width: #{$width4k}) {
     @content;
   }
 }

@@ -52,6 +52,16 @@
       transition: all 0.5s ease;
       cursor: pointer;
 
+      @include mobile4k {
+        width: 30%;
+        height: 35%;
+      }
+
+      @include default {
+        width: 400px;
+        height: 300px;
+      }
+
       @include mobile2 {
         width: 280px;
         height: 180px;

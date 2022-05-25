@@ -5,11 +5,6 @@
   display: flex;
   align-items: center;
 
-  @include mobile {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
   @include mobile2 {
     flex-direction: column;
     text-align: center;
@@ -25,10 +20,6 @@
   position: relative;
   overflow: hidden;
   right: 10%;
-
-  @include mobile {
-    right: 0;
-  }
 
   @include mobile2 {
     right: 0;
@@ -49,9 +40,9 @@
   position: relative;
 
   @include mobile2 {
-    height: 40vh;
+    height: 35vh;
     width: 90%;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
     border-radius: 30px;
     margin-top: 10px;
   }
@@ -67,15 +58,21 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-
-  @include mobile2 {
-    margin-top: 10px;
-  }
 }
 
 .award-img {
   width: 100px;
   height: 100px;
+
+  @include mobile4k {
+    width: 130px;
+    height: 130px;
+  }
+
+  @include mobile2k {
+    width: 100px;
+    height: 100px;
+  }
 
   @include mobile {
     width: 50px;
@@ -86,7 +83,15 @@
 .aboutMeTitle {
   font-weight: 400;
 
-  @include mobile2 {
+  @include mobile4k {
+    font-size: 50px;
+  }
+
+  @include mobile2k {
+    font-size: 40px;
+  }
+
+  @include default {
     font-size: 40px;
   }
 
@@ -97,8 +102,20 @@
 
 .subtitle {
   margin: 20px 0px;
+
+  @include mobile4k {
+    font-size: 40px;
+  }
+  @include mobile2k {
+    font-size: 30px;
+  }
+
+  @include default {
+    font-size: 30px;
+  }
   @include mobile2 {
     font-size: 25px;
+    margin: 10px 0px;
   }
   @include mobile {
     font-size: 18px;
@@ -107,6 +124,17 @@
 .description {
   width: 70%;
   font-weight: 300;
+
+  @include mobile4k {
+    font-size: 35px;
+  }
+  @include mobile2k {
+    font-size: 23px;
+  }
+
+  @include default {
+    font-size: 25px;
+  }
 
   @include mobile2 {
     align-items: center;
@@ -126,7 +154,11 @@
   display: flex;
   margin-top: 30px;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+
+  @include mobile4k {
+    margin-top: 5%;
+  }
 }
 
 .award img {
@@ -143,6 +175,18 @@
 
 .award-text {
   width: 80%;
+
+  @include mobile4k {
+    font-size: 30px;
+  }
+
+  @include mobile2k {
+    font-size: 23px;
+  }
+  @include default {
+    font-size: 25px;
+  }
+
   @include mobile2 {
     flex: 2;
     font-size: 20px;
