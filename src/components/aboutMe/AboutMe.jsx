@@ -11,10 +11,10 @@ export const AboutMe = () => {
       </div>
       <div className="aboutMeRight">
         <h1 className="aboutMeTitle">About Me</h1>
-        <p className="subtitle">Subtitle</p>
+        <p className="subtitle">Front-end, Back-end, Mobile developer</p>
         <p className="description">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
+          Brazilian, 30, Advanced diploma in Computer Programming and Analysis
+          at Seneca College. Geek, in love with programming and technology.
         </p>
 
         <div className="award">
@@ -24,8 +24,10 @@ export const AboutMe = () => {
             className="award-img"
           />
           <div className="award-text">
-            <h4 className="award-title">President List Award 2019</h4>
-            <p className="award-description">This is the award description</p>
+            <h4 className="award-title">President's Honour List 2019</h4>
+            <p className="award-description">
+              For achieving a 4.0 GPA during the term.
+            </p>
           </div>
         </div>
 
@@ -36,8 +38,10 @@ export const AboutMe = () => {
             className="award-img"
           />
           <div className="award-text">
-            <h4 className="award-title">President List Award 2019</h4>
-            <p className="award-description">This is the award description</p>
+            <h4 className="award-title">President's Honour List 2020</h4>
+            <p className="award-description">
+              For achieving a 4.0 GPA during the term.
+            </p>
           </div>
         </div>
       </div>
