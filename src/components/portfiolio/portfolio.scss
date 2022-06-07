@@ -51,7 +51,7 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
-
+      overflow: hidden;
       @include mobile4k {
         width: 45%;
         height: 65%;

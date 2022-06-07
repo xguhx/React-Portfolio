@@ -57,7 +57,9 @@ export const Portfolio = () => {
       <div className="container">
         {data.map((item) => (
           <div className="item" key={item.id}>
-            <img src={item.img} alt={item.title} />
+            <a href={item.github}>
+              <img src={item.img} alt={item.title} />
+            </a>
             <h3>{item.title}</h3>
           </div>
         ))}
