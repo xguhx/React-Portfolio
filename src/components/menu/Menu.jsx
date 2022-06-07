@@ -7,9 +7,9 @@ export const Menu = ({ menuOpen, setMenuOpen }) => {
         <li key="intro">
           <a href="#intro">Home</a>
         </li>
-        <li key="works">
+        {/* <li key="works">
           <a href="#works">Works</a>
-        </li>
+        </li> */}
         <li key="portfolio">
           <a href="#portfolio">Portfolio</a>
         </li>
