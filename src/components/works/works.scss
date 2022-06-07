@@ -218,7 +218,10 @@
             }
           }
         }
-
+        a {
+          text-decoration: none;
+          color: inherit;
+        }
         .right {
           flex: 8;
           height: 100%;
@@ -227,7 +230,7 @@
           justify-content: center;
           overflow: hidden;
           img {
-            width: 600px;
+            width: 1080px;
             border-radius: 30px;
           }
         }

@@ -24,7 +24,7 @@ export const AboutMe = () => {
             className="award-img"
           />
           <div className="award-text">
-            <h4 className="award-title">President's Honour List 2019</h4>
+            <h4 className="award-title">President's Honour List 2019 - Fall</h4>
             <p className="award-description">
               For achieving a 4.0 GPA during the term.
             </p>
@@ -38,7 +38,9 @@ export const AboutMe = () => {
             className="award-img"
           />
           <div className="award-text">
-            <h4 className="award-title">President's Honour List 2020</h4>
+            <h4 className="award-title">
+              President's Honour List 2021 - Winter
+            </h4>
             <p className="award-description">
               For achieving a 4.0 GPA during the term.
             </p>

@@ -18,8 +18,6 @@ export const Portfolio = () => {
     { id: "featured", title: "Featured" },
     { id: "react", title: "React" },
     { id: "angular", title: "Angular" },
-    { id: "asp", title: "Asp.NET" },
-    { id: "others", title: "Others" },
   ];
 
   //Change this:
@@ -35,14 +33,6 @@ export const Portfolio = () => {
 
       case "angular":
         setData(mobilePortfolio);
-        break;
-
-      case "asp":
-        setData(designPortfolio);
-        break;
-
-      case "others":
-        setData(contentPortfolio);
         break;
 
       default:

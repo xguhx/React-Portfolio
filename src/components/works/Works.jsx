@@ -1,5 +1,10 @@
 import "./works.scss";
-import { DeveloperMode, ChevronLeft, ChevronRight } from "@material-ui/icons";
+import {
+  DeveloperMode,
+  ChevronLeft,
+  ChevronRight,
+  Code,
+} from "@material-ui/icons";
 import { featuredPortfolio } from "../../data";
 import { useState } from "react";
 
@@ -27,18 +32,21 @@ export const Works = () => {
                   <div className="imgContainer">
                     {
                       //Change this for more icons
-                      item.icon === "mobile" ? (
-                        <DeveloperMode className="icon" />
-                      ) : (
-                        <></>
-                      )
+                      item.icon === "mobile" ? <Code className="icon" /> : <></>
                     }
                   </div>
                   <h2>{item.title}</h2>
                   <p>{item.description}</p>
-                  <span>Projects</span>
+                  <a href={item.src}>
+                    <span>Project</span>
+                  </a>
+
+                  <a href={item.github}>
+                    <span>Repository</span>
+                  </a>
                 </div>
               </div>
+
               <div className="right">
                 <img src={item.img} alt={item.title} />
               </div>
