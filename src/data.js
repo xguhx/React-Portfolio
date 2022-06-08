@@ -26,8 +26,6 @@ export const featuredPortfolio = [
     src: "https://robofriends-red.vercel.app/",
     github: "https://github.com/xguhx/Robofriends",
   },
-
-  //
 ];
 
 export const webPortfolio = [
