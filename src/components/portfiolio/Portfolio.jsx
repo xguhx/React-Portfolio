@@ -57,10 +57,11 @@ export const Portfolio = () => {
       <div className="container">
         {data.map((item) => (
           <div className="item" key={item.id}>
-            <a href={item.github}>
-              <img src={item.img} alt={item.title} />
-            </a>
-            <h3>{item.title}</h3>
+            <img src={item.img} alt={item.title} />
+
+            <h3>
+              <a href={item.github}>{item.title} </a>
+            </h3>
           </div>
         ))}
       </div>
