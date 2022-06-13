@@ -16,6 +16,14 @@ export const AboutMe = () => {
           Brazilian, 30, Advanced diploma in Computer Programming and Analysis
           at Seneca College. Geek, in love with programming and technology.
         </p>
+        <br />
+        <p className="description2">
+          My goal as a programmer is to be part of a team and evolve together.
+          For me, one of the best feelings in the world is to be helpful, and I
+          am willing to do everything I can to make it happen. I am very
+          comfortable working in Back-end and Front-end, and I would love to get
+          a position in one of those areas.
+        </p>
 
         <div className="award">
           <img

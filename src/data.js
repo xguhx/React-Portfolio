@@ -28,7 +28,7 @@ export const featuredPortfolio = [
   },
 ];
 
-export const webPortfolio = [
+export const reactPortfolio = [
   {
     id: 1,
     title: "React - Restaurants",
@@ -48,7 +48,7 @@ export const webPortfolio = [
   },
 ];
 
-export const mobilePortfolio = [
+export const angularPortfolio = [
   {
     id: 1,
     title: "Angular - Seneca Music",

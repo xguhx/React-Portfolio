@@ -4,8 +4,8 @@ import { useEffect, useState } from "react";
 //change this:
 import {
   featuredPortfolio,
-  webPortfolio,
-  mobilePortfolio,
+  reactPortfolio,
+  angularPortfolio,
   designPortfolio,
   contentPortfolio,
 } from "../../data";
@@ -28,11 +28,11 @@ export const Portfolio = () => {
         break;
 
       case "react":
-        setData(webPortfolio);
+        setData(reactPortfolio);
         break;
 
       case "angular":
-        setData(mobilePortfolio);
+        setData(angularPortfolio);
         break;
 
       default:

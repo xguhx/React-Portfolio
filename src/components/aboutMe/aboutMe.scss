@@ -126,7 +126,7 @@
   font-weight: 300;
 
   @include mobile4k {
-    font-size: 35px;
+    font-size: 30px;
   }
   @include mobile2k {
     font-size: 23px;
@@ -147,6 +147,35 @@
     align-items: center;
     margin: auto;
     font-size: 12px;
+  }
+}
+
+.description2 {
+  width: 70%;
+  font-weight: 300;
+
+  @include mobile4k {
+    font-size: 25px;
+  }
+  @include mobile2k {
+    font-size: 20px;
+  }
+
+  @include default {
+    font-size: 20px;
+  }
+
+  @include mobile2 {
+    align-items: center;
+    margin: auto;
+
+    font-size: 15px;
+  }
+
+  @include mobile {
+    align-items: center;
+    margin: auto;
+    font-size: 10px;
   }
 }
 
