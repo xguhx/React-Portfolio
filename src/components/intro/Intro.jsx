@@ -28,7 +28,7 @@ export const Intro = () => {
           <h3>Developer </h3>
         </div>
 
-        <a href="#works">
+        <a href="#portfolio">
           <ArrowDownward className="down" />
         </a>
       </div>
