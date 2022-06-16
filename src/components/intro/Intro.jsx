@@ -11,7 +11,7 @@ export const Intro = () => {
       showCursor: true,
       backDelay: 1500,
       backSpeed: 60,
-      strings: ["Front-end", "Back-end", "Mobile"],
+      strings: ["Full-Stack", "Front-End", "Back-End"],
     });
   }, []);
 
