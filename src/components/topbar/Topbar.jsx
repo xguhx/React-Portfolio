@@ -21,7 +21,7 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
             <LinkedIn className="icon" />
 
             <span>
-              <a href="https://www.linkedin.com/in/gustavo-tavares-80658071/">
+              <a href="https://www.linkedin.com/in/tavares-gustavo/">
                 Gustavo Tavares
               </a>
             </span>
@@ -30,8 +30,8 @@ export const Topbar = ({ menuOpen, setMenuOpen }) => {
           <div className="itemContainer">
             <Email className="icon" />
             <span>
-              <a href="mailto:gust.tavaresx@gmail.com">
-                gust.tavaresx@gmail.com
+              <a href="mailto:gustavotavaresdev@gmail.com">
+                gustavotavaresdev@gmail.com
               </a>
             </span>
           </div>
