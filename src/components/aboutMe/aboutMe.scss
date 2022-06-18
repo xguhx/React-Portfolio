@@ -179,6 +179,36 @@
   }
 }
 
+.description3 {
+  width: 70%;
+  font-weight: 300;
+
+  @include mobile4k {
+    font-size: 25px;
+  }
+  @include mobile2k {
+    font-size: 20px;
+  }
+
+  @include default {
+    font-size: 20px;
+  }
+
+  @include mobile2 {
+    align-items: center;
+    margin: auto;
+
+    font-size: 15px;
+  }
+
+  @include mobile {
+    display: none;
+    align-items: center;
+    margin: auto;
+    font-size: 10px;
+  }
+}
+
 .languages {
   width: 70%;
   font-weight: 300;
@@ -202,15 +232,11 @@
   }
 
   @include mobile {
+    display: none;
     align-items: center;
     margin: auto;
     font-size: 10px;
   }
-}
-
-.languages a {
-  text-decoration: none;
-  color: inherit;
 }
 
 .award {

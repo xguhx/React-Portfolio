@@ -27,7 +27,7 @@ export const AboutMe = () => {
         </p>
         <br />
 
-        <p className="description2">
+        <p className="description3">
           <strong> Programming Languages </strong>
         </p>
         <p className="languages">
@@ -36,7 +36,7 @@ export const AboutMe = () => {
         </p>
 
         <br />
-        <p className="description2">
+        <p className="description3">
           <strong>Tools and Skills: </strong>
         </p>
         <p className="languages">
@@ -46,14 +46,14 @@ export const AboutMe = () => {
         </p>
         <br />
 
-        <p className="description2">
+        <p className="description3">
           <strong>Databases: </strong>
         </p>
         <p className="languages">
           <span>SQL,</span> <span>MongoDB,</span> <span>AS400</span>
         </p>
         <br />
-        <p className="description2">
+        <p className="description3">
           <strong>Cloud: </strong>
         </p>
         <p className="languages">
