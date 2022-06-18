@@ -1,7 +1,7 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Angular - Seneca Music",
+    title: "Seneca Music",
     description: "Angular App connected to Spotify API",
     icon: "mobile",
     img: "https://i.ibb.co/hCwHB6J/Seneca-Music.png",
@@ -10,7 +10,7 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "React - Restaurant Finder",
+    title: "Restaurant Finder",
     icon: "mobile",
     description: "React application to find restaurants",
     img: "https://i.ibb.co/K2YcqcZ/Restaurants.png",
@@ -19,7 +19,7 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
-    title: "React - Robofriends",
+    title: "Robofriends",
     icon: "mobile",
     description: "Simple React app with dynamic search",
     img: "https://i.ibb.co/kQDtLXf/Robofriends.png",
@@ -31,7 +31,7 @@ export const featuredPortfolio = [
 export const reactPortfolio = [
   {
     id: 1,
-    title: "React - Restaurants",
+    title: "Restaurants",
     icon: "mobile",
     description: "React application to find restaurants",
     img: "https://i.ibb.co/K2YcqcZ/Restaurants.png",
@@ -39,7 +39,7 @@ export const reactPortfolio = [
   },
   {
     id: 2,
-    title: "React - Robofriends",
+    title: "Robofriends",
     icon: "mobile",
     description: "Simple React app with dynamic search",
     img: "https://i.ibb.co/kQDtLXf/Robofriends.png",
@@ -51,7 +51,7 @@ export const reactPortfolio = [
 export const angularPortfolio = [
   {
     id: 1,
-    title: "Angular - Seneca Music",
+    title: "Seneca Music",
     description: "Angular App connected to Spotify API",
     icon: "mobile",
     img: "https://i.ibb.co/hCwHB6J/Seneca-Music.png",
