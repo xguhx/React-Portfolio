@@ -179,6 +179,40 @@
   }
 }
 
+.languages {
+  width: 70%;
+  font-weight: 300;
+
+  @include mobile4k {
+    font-size: 25px;
+  }
+  @include mobile2k {
+    font-size: 20px;
+  }
+
+  @include default {
+    font-size: 20px;
+  }
+
+  @include mobile2 {
+    align-items: center;
+    margin: auto;
+
+    font-size: 15px;
+  }
+
+  @include mobile {
+    align-items: center;
+    margin: auto;
+    font-size: 10px;
+  }
+}
+
+.languages a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .award {
   display: flex;
   margin-top: 30px;
@@ -199,6 +233,7 @@
   @include mobile {
     flex: 1;
     margin-left: 30px;
+    display: none;
   }
 }
 
@@ -225,6 +260,7 @@
   @include mobile {
     font-size: 12px;
     padding-right: 30%;
+    display: none;
   }
 }
 
@@ -234,5 +270,6 @@
   margin-bottom: 10px;
   @include mobile {
     margin-bottom: 10px;
+    display: none;
   }
 }
