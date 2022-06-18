@@ -202,7 +202,6 @@
   }
 
   @include mobile {
-    display: none;
     align-items: center;
     margin: auto;
     font-size: 10px;
@@ -232,7 +231,6 @@
   }
 
   @include mobile {
-    display: none;
     align-items: center;
     margin: auto;
     font-size: 10px;
