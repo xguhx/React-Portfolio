@@ -22,8 +22,8 @@ export const AboutMe = () => {
           My goal as a programmer is to be part of a team and evolve together.
           For me, one of the best feelings in the world is to be helpful, and I
           am willing to do everything I can to make it happen. I am very
-          comfortable working in Back-end and Front-end, and I would love to get
-          a position in one of those areas.
+          comfortable working in Back-end, Front-end and Software Development,
+          and I would love to get a position in one of those areas.
         </p>
         <br />
 
