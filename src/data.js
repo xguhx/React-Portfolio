@@ -19,12 +19,21 @@ export const featuredPortfolio = [
   },
   {
     id: 3,
-    title: "Robofriends",
+    title: "Blogging App NodeJs REST API",
     icon: "mobile",
-    description: "Simple React app with dynamic search",
-    img: "https://i.ibb.co/WPmWHf5/Robofriends-2.png",
-    src: "https://robofriends-red.vercel.app/",
-    github: "https://github.com/xguhx/Robofriends",
+    description: "Back-End JavaScript REST API Project using GraphQL",
+    img: "https://i.imgur.com/0MORoIa.png",
+    src: "https://gustavo-blog-app-react-front-end.vercel.app/",
+    github: "https://github.com/xguhx/NodeJs-Express-REST-API-BLOG-APP",
+  },
+  {
+    id: 4,
+    title: "Shopping App NodeJs Express",
+    icon: "mobile",
+    description: "Back-End JavaScript Node Project",
+    img: "https://i.imgur.com/okCFpdh.png",
+    src: "https://shopping-nodejs-app.herokuapp.com/",
+    github: "https://github.com/xguhx/NodeJs-Express-Shop-App",
   },
 ];
 
@@ -39,7 +48,7 @@ export const reactPortfolio = [
   },
   {
     id: 2,
-    title: "Robofriends",
+    title: "RoboFriends",
     icon: "mobile",
     description: "Simple React app with dynamic search",
     img: "https://i.ibb.co/WPmWHf5/Robofriends-2.png",
@@ -59,6 +68,25 @@ export const angularPortfolio = [
   },
 ];
 
-export const designPortfolio = [];
+export const nodePortfolio = [
+  {
+    id: 1,
+    title: "Blogging App NodeJs REST API",
+    icon: "mobile",
+    description: "Back-End JavaScript REST API Project using GraphQL",
+    img: "https://i.imgur.com/0MORoIa.png",
+    src: "https://gustavo-blog-app-react-front-end.vercel.app/",
+    github: "https://github.com/xguhx/NodeJs-Express-REST-API-BLOG-APP",
+  },
+  {
+    id: 2,
+    title: "Shopping App NodeJs Express",
+    icon: "mobile",
+    description: "Back-End JavaScript Node Project",
+    img: "https://i.imgur.com/okCFpdh.png",
+    src: "https://shopping-nodejs-app.herokuapp.com/",
+    github: "https://github.com/xguhx/NodeJs-Express-Shop-App",
+  },
+];
 
 export const contentPortfolio = [];

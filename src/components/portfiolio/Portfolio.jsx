@@ -6,7 +6,7 @@ import {
   featuredPortfolio,
   reactPortfolio,
   angularPortfolio,
-  designPortfolio,
+  nodePortfolio,
   contentPortfolio,
 } from "../../data";
 
@@ -18,6 +18,7 @@ export const Portfolio = () => {
     { id: "featured", title: "Featured" },
     { id: "react", title: "React" },
     { id: "angular", title: "Angular" },
+    { id: "node", title: "Node" },
   ];
 
   //Change this:
@@ -33,6 +34,10 @@ export const Portfolio = () => {
 
       case "angular":
         setData(angularPortfolio);
+        break;
+
+      case "node":
+        setData(nodePortfolio);
         break;
 
       default:
