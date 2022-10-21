@@ -11,7 +11,7 @@ export const AboutMe = () => {
       </div>
       <div className="aboutMeRight">
         <h1 className="aboutMeTitle">About Me</h1>
-        <p className="subtitle">Full-Stack, Front-End, Back-End</p>
+        <p className="subtitle">Software Developer, Back-End Developer</p>
         <p className="description">
           Brazilian, 30, Advanced diploma in Computer Programming and Analysis
           at Seneca College. Geek, in love with programming and technology.

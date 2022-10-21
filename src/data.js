@@ -1,7 +1,7 @@
 export const featuredPortfolio = [
   {
     id: 1,
-    title: "Seneca Music",
+    title: "Spotify App",
     description: "Angular App connected to Spotify API",
     icon: "mobile",
     img: "https://i.imgur.com/WbGdItS.png",
@@ -10,28 +10,28 @@ export const featuredPortfolio = [
   },
   {
     id: 2,
-    title: "Restaurant Finder",
+    title: "Static Site Generator",
     icon: "mobile",
-    description: "React application to find restaurants",
-    img: "https://i.imgur.com/5g4t1DG.png",
-    src: "https://restaurants-react-app.vercel.app/",
-    github: "https://github.com/xguhx/RestaurantsReactApp",
+    description: "NPM Package in JavaScript",
+    img: "https://i.imgur.com/JPLwRWt.png",
+    src: "https://www.npmjs.com/package/gmot-ssg",
+    github: "https://github.com/xguhx/GMOT-SSG",
   },
   {
     id: 3,
-    title: "Blogging App NodeJs REST API",
+    title: "Blogging App",
     icon: "mobile",
     description: "Back-End JavaScript REST API Project using GraphQL",
-    img: "https://i.imgur.com/0MORoIa.png",
+    img: "https://i.imgur.com/rR1RGwP.png",
     src: "https://gustavo-blog-app-react-front-end.vercel.app/",
     github: "https://github.com/xguhx/NodeJs-Express-REST-API-BLOG-APP",
   },
   {
     id: 4,
-    title: "Shopping App NodeJs Express",
+    title: "Shopping App",
     icon: "mobile",
     description: "Back-End JavaScript Node Project",
-    img: "https://i.imgur.com/okCFpdh.png",
+    img: "https://i.imgur.com/tZIpmOx.png",
     src: "https://shopping-nodejs-app.herokuapp.com/",
     github: "https://github.com/xguhx/NodeJs-Express-Shop-App",
   },
@@ -40,7 +40,7 @@ export const featuredPortfolio = [
 export const reactPortfolio = [
   {
     id: 1,
-    title: "Restaurants",
+    title: "Restaurant Finder",
     icon: "mobile",
     description: "React application to find restaurants",
     img: "https://i.ibb.co/BNK8w20/Restaurants-2.png",
@@ -60,7 +60,7 @@ export const reactPortfolio = [
 export const angularPortfolio = [
   {
     id: 1,
-    title: "Seneca Music",
+    title: "Spotify App",
     description: "Angular App connected to Spotify API",
     icon: "mobile",
     img: "https://i.ibb.co/wsW2PDM/Seneca-Music-2.png",
@@ -71,21 +71,30 @@ export const angularPortfolio = [
 export const nodePortfolio = [
   {
     id: 1,
-    title: "Blogging App NodeJs REST API",
+    title: "Blogging App",
     icon: "mobile",
     description: "Back-End JavaScript REST API Project using GraphQL",
-    img: "https://i.imgur.com/0MORoIa.png",
+    img: "https://i.imgur.com/rR1RGwP.png",
     src: "https://gustavo-blog-app-react-front-end.vercel.app/",
     github: "https://github.com/xguhx/NodeJs-Express-REST-API-BLOG-APP",
   },
   {
     id: 2,
-    title: "Shopping App NodeJs Express",
+    title: "Shopping App",
     icon: "mobile",
-    description: "Back-End JavaScript Node Project",
-    img: "https://i.imgur.com/okCFpdh.png",
+    description: "Back-End JavaScript Shopping Node Project",
+    img: "https://i.imgur.com/tZIpmOx.png",
     src: "https://shopping-nodejs-app.herokuapp.com/",
     github: "https://github.com/xguhx/NodeJs-Express-Shop-App",
+  },
+  {
+    id: 3,
+    title: "Static Site Generator",
+    icon: "mobile",
+    description: "NPM Package in JavaScript",
+    img: "https://i.imgur.com/JPLwRWt.png",
+    src: "https://www.npmjs.com/package/gmot-ssg",
+    github: "https://github.com/xguhx/GMOT-SSG",
   },
 ];
 

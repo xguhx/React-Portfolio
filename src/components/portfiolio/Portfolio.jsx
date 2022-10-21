@@ -16,9 +16,9 @@ export const Portfolio = () => {
 
   const list = [
     { id: "featured", title: "Featured" },
+    { id: "node", title: "Node" },
     { id: "react", title: "React" },
     { id: "angular", title: "Angular" },
-    { id: "node", title: "Node" },
   ];
 
   //Change this:
@@ -65,8 +65,16 @@ export const Portfolio = () => {
             <img src={item.img} alt={item.title} />
 
             <h3>
-              <a href={item.github}>{item.title} </a>
+              <a href={item.github} target="_blank" rel="noopener noreferrer">
+                {item.title}{" "}
+              </a>
             </h3>
+
+            <h4>
+              <a href={item.github} target="_blank" rel="noopener noreferrer">
+                {item.description}{" "}
+              </a>
+            </h4>
           </div>
         ))}
       </div>
